@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Financial Data</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .visualization {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .home-link:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Financial Data</h1>
+        <h2>Total Expenses: {{ total }}</h2>
+        <h3>Categorized Expenses:</h3>
+        <div>{{ categorized | safe }}</div>
+
+        <h3>Visualizations:</h3>
+        <div class="visualization">
+            <h4>Pie Chart:</h4>
+            <img src="{{ pie_chart }}" alt="Pie Chart">
+        </div>
+        <div class="visualization">
+            <h4>Bar Chart:</h4>
+            <img src="{{ bar_chart }}" alt="Bar Chart">
+        </div>
+        <div class="visualization">
+            <h4>Line Chart:</h4>
+            <img src="{{ line_chart }}" alt="Line Chart">
+        </div>
+        <div class="visualization">
+            <h4>Histogram:</h4>
+            <img src="{{ histogram }}" alt="Histogram">
+        </div>
+
+        <h3>Raw Data:</h3>
+        <div>{{ data | safe }}</div>
+        <a href="/dashboard" class="home-link">Back to Dashboard</a>
+    </div>
+</body>
+</html>

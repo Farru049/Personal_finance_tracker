@@ -1,0 +1,89 @@
+/* static/styles.css */
+/* static/styles.css */
+
+body {
+    background-image: url('images/background.jpg'); /* Make sure the path is correct */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    color: white; /* Change text color if needed for visibility */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to improve text visibility */
+    padding: 20px; /* Adds some padding */
+    align-content:center;
+    border-radius: 8px; /* Rounds the corners */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.upload-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-form input[type="file"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.upload-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upload-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Links */
+.home-link, .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+.home-link:hover, .back-link:hover {
+    color: #2980b9;
+}
+
+/* Data Tables */
+.data-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.data-table th {
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+}
+
+.total {
+    color: #e74c3c; /* Red color for emphasis */
+}

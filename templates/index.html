@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Financial Data</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Your Financial Data</h1>
+        <h2>Total Expenses: {{ total }}</h2>
+        <h3>Categorized Expenses:</h3>
+        <div>{{ categorized | safe }}</div>
+
+        <h3>Visualizations:</h3>
+        <div class="visualization">
+            <h4>Pie Chart:</h4>
+            <img src="{{ pie_chart }}" alt="Pie Chart">
+        </div>
+        <div class="visualization">
+            <h4>Bar Chart:</h4>
+            <img src="{{ bar_chart }}" alt="Bar Chart">
+        </div>
+        <div class="visualization">
+            <h4>Line Chart:</h4>
+            <img src="{{ line_chart }}" alt="Line Chart">
+        </div>
+        <div class="visualization">
+            <h4>Histogram:</h4>
+            <img src="{{ histogram }}" alt="Histogram">
+        </div>
+
+        <h3>Raw Data:</h3>
+        <div>{{ data | safe }}</div>
+        <a href="/dashboard" class="home-link">Back to Dashboard</a>
+    </div>
+</body>
+</html>
