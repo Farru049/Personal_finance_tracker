@@ -1,6 +1,6 @@
 # Personal Finance Tracker
 
-![Project Logo](static/images/backroundimage.jpg) <!-- Replace with your logo image if available -->
+![Project Logo]([static/images/backroundimage.jpg](https://github.com/Farru049/Personal_finance_tracker/blob/main/static/images/background.jpg)) <!-- Replace with your logo image if available -->
 
 ## Table of Contents
 
