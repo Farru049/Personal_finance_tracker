@@ -4,7 +4,7 @@
 
 Here is the flowchart illustrating the workflow of the Personal Finance Tracker project:
 
-![Flowchart](static/images/projectflow.png)
+![Flowchart]([projectflow.png](https://github.com/Farru049/Personal_finance_tracker/blob/main/Project%20flow.png))
 
 
 ![Project Logo]([static/images/backroundimage.jpg](https://github.com/Farru049/Personal_finance_tracker/blob/main/static/images/background.jpg)) <!-- Replace with your logo image if available -->
