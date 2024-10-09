@@ -3,7 +3,7 @@
 
 Here is the flowchart illustrating the workflow of the Personal Finance Tracker project:
 
-![Flowchart](personal_finance_tracker/Project%20flow.png) 
+![Flowchart](https://raw.githubusercontent.com/Farru049/Personal_finance_tracker/67ecde3ee8de8940d59260c2766e4841dd34d9bd/Project%20flow.png) 
 
 ## Project Logo
 
