@@ -1,13 +1,12 @@
 # Personal Finance Tracker
 
-[## Flowchart
+## Flowchart
 
 Here is the flowchart illustrating the workflow of the Personal Finance Tracker project:
 
-![Flowchart]([projectflow.png]
-](personal_finance_tracker/project flow/png)
+![Flowchart](personal_finance_tracker/project flow/png)  <!-- Ensure the path is correct -->
 
-![Project Logo]([static/images/backroundimage.jpg](https://github.com/Farru049/Personal_finance_tracker/blob/main/static/images/background.jpg)) <!-- Replace with your logo image if available -->
+![Project Logo](static/images/backgroundimage.jpg) <!-- Ensure the path is correct -->
 
 ## Table of Contents
 
@@ -46,12 +45,12 @@ To set up the Personal Finance Tracker locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/personal_finance_tracker.git
+    git clone https://github.com/Farru049/Personal_finance_tracker.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd personal_finance_tracker
+    cd Personal_finance_tracker
     ```
 
 3. Create a virtual environment:
