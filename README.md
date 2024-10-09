@@ -1,6 +1,6 @@
 # Personal Finance Tracker
 
-![Project Logo](static/images/logo.png) <!-- Replace with your logo image if available -->
+![Project Logo](static/images/backroundimage.jpg) <!-- Replace with your logo image if available -->
 
 ## Table of Contents
 
