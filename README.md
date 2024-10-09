@@ -1,12 +1,14 @@
 # Personal Finance Tracker
-
 ## Flowchart
 
 Here is the flowchart illustrating the workflow of the Personal Finance Tracker project:
 
-![Flowchart](personal_finance_tracker/project flow/png)  <!-- Ensure the path is correct -->
+![Flowchart](personal_finance_tracker/Project%20flow.png) 
 
-![Project Logo](static/images/backgroundimage.jpg) <!-- Ensure the path is correct -->
+## Project Logo
+
+![Project Logo](static/images/backgroundimage.jpg)  <!-- Ensure this path is correct -->
+
 
 ## Table of Contents
 
